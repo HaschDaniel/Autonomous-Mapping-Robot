@@ -1,2 +1,5 @@
 # Autonomous_Mapping_Robot
-kristianovo mama
+
+My solution for mapping the indoor enviroment
+
+In progress...

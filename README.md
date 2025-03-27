@@ -2,16 +2,12 @@
 
 The **Autonomous Mapping Robot** is my project for autonomous indoor environment mapping. It collects distances with ultrasonic sensors and sends the data to a server for 2D map generation using other application (not done yet).
 
----
-
 ## How It Works
 
 1. **Ultrasonic sensors:** Robot uses three ultrasonic sensors (front, right, left) to measure distances,
 2. **Data collection:** Robot is autonomously moving in the enviroment and collects the data,
 3. **Communication:** Communication is done using MQTT, where it sends the data, so it does not save it in its own memory,
 4. **Creating the map:** Collected data are visualized in other application (not done yet).
-
----
 
 ## Download
 
@@ -57,8 +53,6 @@ client = MQTTClient(
     )
 ```
 
----
-
 ## Usage
 
 1. Save the `main.py` file and required libraries into the robot,
@@ -67,8 +61,6 @@ client = MQTTClient(
 (or you can use my app (not done yet)),
 
 3. Open the mapping application to visualize the 2D map from the collected data. (not done yet)
-
----
 
 ## License
 

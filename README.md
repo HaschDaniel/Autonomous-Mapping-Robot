@@ -1,7 +1,7 @@
 # Autonomous Mapping Robot
 
 The **Autonomous Mapping Robot** is my project for autonomous indoor environment mapping. It collects distances with ultrasonic sensors and sends the data to a server for 2D map generation using other application (not done yet).
-
+ 
 ## How It Works
 
 1. **Ultrasonic sensors:** Robot uses three ultrasonic sensors (front, right, left) to measure distances,

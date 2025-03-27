@@ -30,7 +30,7 @@ git clone https://github.com/HaschDaniel/autonomous-mapping-robot.git
 cd autonomous-mapping-robot
 ```
 
-3. Install Python libraries required for the project and my libraries for L298N, HC-020K, HC-SR04 and QMC5883L. For MPU, I recommend finding one on GitHub.
+3. Install Python libraries required for the project and my libraries for L298N, HC-020K, HC-SR04 and QMC5883L (not done yet). For MPU, I recommend finding one on GitHub.
 
 4. Set your MQTT server IP, port, username and password in `secret` file:
 

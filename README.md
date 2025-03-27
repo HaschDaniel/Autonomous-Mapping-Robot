@@ -2,7 +2,7 @@
 
 The **Autonomous Mapping Robot** is my project for autonomous indoor environment mapping. It collects distances with ultrasonic sensors and sends the data to a server for 2D map generation using other application (not done yet).
  
-## How It Works
+## How it works
 
 1. **Ultrasonic sensors:** Robot uses three ultrasonic sensors (front, right, left) to measure distances,
 2. **Data collection:** Robot is autonomously moving in the enviroment and collects the data,
@@ -21,13 +21,13 @@ The **Autonomous Mapping Robot** is my project for autonomous indoor environment
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/HaschDaniel/autonomous-mapping-robot.git
+git clone https://github.com/HaschDaniel/Autonomous-Mapping-Robot.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd autonomous-mapping-robot
+cd Autonomous-Mapping-Robot
 ```
 
 3. Install Python libraries required for the project and my libraries for L298N, HC-020K, HC-SR04 and QMC5883L (not done yet). For MPU, I recommend finding one on GitHub.
